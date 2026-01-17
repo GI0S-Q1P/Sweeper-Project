@@ -1,0 +1,95 @@
+@media(max-width:1024px){
+    .strat_img_flex img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .how_to_play_grid img{
+        height: 30rem;
+        margin-top: 3rem;
+    }
+    .Main_information_grid img{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+}
+@media(max-width:768px){
+    header img{
+        width: 5rem;
+    }
+    .navBar{
+        font-size: 1rem;
+    }
+    #ms_easy{
+        width: 10rem;
+        height: 10rem;
+    }
+    #ms_med{
+        width: 15rem;
+        height: 15rem;
+    }
+    #ms_hard{
+        width: 20rem;
+        height: 20rem;
+    }
+    .strat_img_flex img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .Main_information_grid img{
+        width: 35rem;
+        height: 25rem;
+        margin-left: 4.5rem;
+    }
+    .Main_information_grid{
+        grid-template-columns: 1fr;
+    }
+    .how_to_play_grid img{
+        height: 25rem;
+        margin-top: 3rem;
+        margin-left: 4.5rem;
+    }
+    .how_to_play_grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:524px){
+    .strat_img_flex img{
+        width: 7rem;
+        height: 7rem;
+    }
+    #ms_easy{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 1.5rem;
+    }
+    #ms_med{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 1.5rem;
+    }
+    #ms_hard{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 1.5rem;
+    }
+    #Difficulty_levels h2{
+        font-size: 1.5rem;
+    }
+    .how_to_play_grid img{
+        height: 20rem;
+        width: 27rem;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+    }
+    .Main_information_grid img{
+        width: 27rem;
+        height: 20rem;
+        margin-left: 0.5rem;
+    }
+    .navBar{
+        font-size: 0.6rem;
+    }
+    header img{
+        width: 4rem;
+    }
+}

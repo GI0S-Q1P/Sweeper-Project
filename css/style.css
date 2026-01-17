@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+body{
+    font-family: "Pixelify Sans", sans-serif, Arial;
+    background-color: rgb(227, 228, 210);
+}
+header img{
+    width: 7rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(209, 189, 100);
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    z-index: 1;
+}
+.navBar{
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.navBar a{
+    text-decoration: none;
+    color: rgb(40, 39, 3);
+    display: inline-block;
+    transition: all 0.3s ease-out;
+}
+.navBar a:hover{
+    transform: scale(1.03);
+}
+.logo{
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+.logo:hover{
+    transform: scale(1.03);
+}
+.hero{
+    background-image: url(../Images/bg_ms.jpg);
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+    transition: all 0.5s ease-in;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10rem;
+    font-weight: 900;
+    color: rgb(35, 35, 48);
+}
+.hero h1:hover{
+    transform: scale(1.03);
+    color: rgb(61, 58, 27);
+    cursor: default;
+}
+#Main_information h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    cursor: default;
+}
+#Main_information{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+p{
+    font-family: "Jersey 10", sans-serif, Arial;
+    font-size: 1.5rem;
+}
+.Main_information_grid img{
+    width: 35rem;
+    height: 23rem;
+    border-radius: 1rem;
+}
+.Main_information_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem
+}
+#How_to_play h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    cursor: default;
+}
+#How_to_play{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.how_to_play_grid img{
+    width: 35rem;
+    height: 23rem;
+    border-radius: 3rem;
+    margin-left: 1rem;
+}
+.how_to_play_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+#Rules h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    cursor: default;
+}
+#Rules{
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+#Rules p{
+    margin-top: 0.5rem;
+}
+#Difficulty_levels h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    cursor: default;
+}
+#Difficulty_levels{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: rgb(230, 218, 169);
+}
+#ms_easy{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+#ms_med{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 3rem;
+}
+#ms_hard{
+    width: 27rem;
+    height: 27rem;
+    border-radius: 3rem;
+}
+.dif_img_flex{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+#Tips_and_strategies{
+    background-color: rgb(230, 218, 169);
+    padding: 1rem;
+}
+#Tips_and_strategies h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    cursor: default;
+}
+#Tips_and_strategies p{
+    padding: 1rem;
+}
+.strat_img_flex img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.strat_img_flex{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+footer h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+footer h5{
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+footer{
+    margin-top: 5rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(209, 189, 100);
+    cursor: default;
+}

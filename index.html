@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Images/M_logo.webp" alt="logo">
+        </div>
+        <ul class="navBar">
+            <li>
+                <a href="#Main_information">Main information</a>
+            </li>
+            <li>
+                <a href="#How_to_play">How to play</a>
+            </li>
+            <li>
+                <a href="#Rules">Rules</a>
+            </li>
+            <li>
+                <a href="#Difficulty_levels">Difficulty levels</a>
+            </li>
+            <li>
+                <a href="#Tips_and_strategies">Tips and strategies</a>
+            </li>
+        </ul>
+    </header>
+    <section class="hero">
+        <h1>
+            Project Sweeper
+        </h1>
+    </section>
+    <main>
+        <section id="Main_information">
+            <h2>
+                Main information
+            </h2>
+            <div class="Main_information_grid">
+                <p>
+                    Minesweeper is a logic puzzle video game genre generally played on personal computers. The game features a grid of clickable tiles, with hidden "mines" dispersed throughout the board. The objective is to clear the board without detonating any mines, with help from clues about the number of neighboring mines in each field. Variants of Minesweeper have been made that expand on the basic concepts, such as Minesweeper X, Crossmines, and Minehunt. Minesweeper has been incorporated as a minigame in other games, such as RuneScape and Minecraft's 2015 April Fools update.
+                    The origin of Minesweeper is unclear. According to TechRadar, the first version of the game was 1990's Microsoft Minesweeper, but Eurogamer states Mined-Out (1983) by Ian Andrew was the first Minesweeper game. Curt Johnson, the creator of Microsoft Minesweeper, acknowledges that his game's design was borrowed from another game, but denies that it was Mined-Out.
+                </p>
+                <img src="./Images/minesweeper.png" alt="minesweeper">
+            </div>
+        </section>
+        <section id="How_to_play">
+            <h2>
+                How to play
+            </h2>
+            <div class="how_to_play_grid">
+                <p>
+                    Minesweeper is a puzzle video game. In the game, mines are scattered throughout a board, which is divided into cells. Cells have three states: unopened, opened and flagged. An unopened cell is blank and clickable, while an opened cell is exposed. Flagged cells are those marked by the player to indicate a potential mine location.
+                    A player selects a cell to open it. If a player opens a mined cell, the game ends. Otherwise, the opened cell displays either a number, indicating the number of mines vertically, horizontally or diagonally adjacent to it, or a blank tile (or "0"), and all adjacent non-mined cells will automatically be opened. Players can also flag a cell, visualised by a flag being put on the location, to denote that they believe a mine to be in that place. Flagged cells are still considered unopened, and a player can click on them to open them. In some versions of the game when the number of adjacent mines is equal to the number of adjacent flagged cells, all adjacent non-flagged unopened cells will be opened, a process known as chording.
+                </p>
+                <img src="./Images/minesweeper_2.png" alt="minesweeper">
+            </div>
+        </section>
+        <section id="Rules">
+            <h2>
+                Rules
+            </h2>
+            <p>
+                Minesweeper is a game where you try to uncover every safe square on a grid while avoiding hidden mines. Each time you click a square, it either reveals a mine, which ends the game, or a number that shows how many mines are touching that square. By using these numbers, you can figure out which nearby squares are dangerous and which are safe. You can mark squares you believe contain mines with flags so you do not open them by mistake. The game is won when all the safe squares have been revealed and no mines have been clicked.
+            </p>
+        </section>
+        <section id="Difficulty_levels">
+            <h2>
+                - - - - - - Difficulty levels - - - - - -
+            </h2>
+            <p>
+                Beginner mode is usually on an 8x8 or 9x9 board containing 10 mines, Intermediate is usually on a 16x16 board with 40 mines and expert is usually on a 30x16 board with 99 mines; however, there is usually an option to customise board size and mine count.
+            </p>
+            <div class="dif_img_flex">
+                <img src="./Images/ms_easy.webp" alt="MS easy" id="ms_easy">
+                <img src="./Images/ms_medium.webp" alt="MS med" id="ms_med">
+                <img src="./Images/ms_hard.png" alt="MS hard" id="ms_hard">
+            </div>
+        </section>
+        <section id="Tips_and_strategies">
+            <h2>
+                Tips AND strategies
+            </h2>
+            <p>
+                A game of Minesweeper begins when the player first selects a cell on a board. In some variants the first click is guaranteed to be safe, and some further guarantee that all adjacent cells are safe as well. During the game, the player uses information given from the opened cells to deduce further cells that are safe to open, iteratively gaining more information to solve the board. The player is also given the number of remaining mines in the board, known as the minecount, which is calculated as the total number of mines subtracted by the number of flagged cells (thus the minecount can be negative if too many flags have been placed).
+                To win a game of Minesweeper, all non-mine cells must be opened without opening a mine. There is no score, but there is a timer recording the time taken to finish the game. Difficulty can be increased by adding mines or starting with a larger grid. Most variants of Minesweeper that are not played on a fixed board offer three default board configurations, usually known as Beginner, Intermediate, and Expert, in order of increasing difficulty. Beginner is usually on an 8x8 or 9x9 board containing 10 mines, Intermediate is usually on a 16x16 board with 40 mines and expert is usually on a 30x16 board with 99 mines; however, there is usually an option to customize board size and mine count.
+            </p>
+            <div class="strat_img_flex">
+                <img src="./Images/ms_strat.png" alt="MS strat">
+                <img src="./Images/ms_strat2.png" alt="MS strat">
+                <img src="./Images/ms_strat3.webp" alt="MS strat">
+                <img src="./Images/ms_strat4.jpeg" alt="MS strat">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>2025-2026 © Sweeper Project. All rights reserved</h3>
+        <h5>Note: this site is a project about MineSweeper</h5>
+    </footer>
+</body>
+</html>
