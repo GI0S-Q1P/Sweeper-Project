@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 body{
     font-family: "Pixelify Sans", sans-serif, Arial;
     background-color: rgb(227, 228, 210);
@@ -58,7 +58,6 @@ header{
     color: rgb(35, 35, 48);
 }
 .hero h1:hover{
-    transform: scale(1.03);
     color: rgb(61, 58, 27);
     cursor: default;
 }
@@ -74,13 +73,14 @@ header{
     padding: 1rem;
 }
 p{
-    font-family: "Jersey 10", sans-serif, Arial;
+    font-family: "Jersey 25", sans-serif, Arial;
     font-size: 1.5rem;
 }
 .Main_information_grid img{
     width: 35rem;
     height: 23rem;
     border-radius: 1rem;
+    padding: 1rem;
 }
 .Main_information_grid{
     display: grid;
@@ -133,7 +133,7 @@ p{
 }
 #Difficulty_levels{
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 2rem;
     background-color: rgb(230, 218, 169);
 }
 #ms_easy{
