@@ -34,10 +34,7 @@ header{
 .navBar a:hover{
     transform: scale(1.03);
 }
-.logo{
-    cursor: pointer;
-    transition: all 1s ease-in;
-}
+
 .logo:hover{
     transform: scale(1.03);
 }
@@ -71,7 +68,6 @@ header{
 #Main_information{
     margin-top: 3rem;
     padding: 1rem;
-    border-radius: 31.5rem;
 }
 p{
     font-family: "Jersey 25", sans-serif, Arial;
