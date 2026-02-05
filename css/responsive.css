@@ -97,6 +97,32 @@
         grid-template-columns: 1fr;
     }
 }
+@media(max-width:700px){
+    .navBar{
+        font-size: 0.9rem;
+    }
+   .Main_information_grid{
+        margin: 0rem;
+        padding: 0rem;
+   }
+   .Main_information_grid{
+        padding: 0rem;
+    }
+    p{
+        font-size: 1.3rem;
+        margin-top: 0.3rem;
+    }
+    #How_to_play{
+        margin-top: 1rem;
+        padding: 0.3rem;
+    }
+    .how_to_play_grid{
+        margin: 0rem;
+    }
+    .how_to_play_grid img{
+        padding: 0rem;
+    }
+}
 @media(max-width:524px){
     .navBar{
         display: none;

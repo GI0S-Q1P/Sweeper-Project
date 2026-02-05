@@ -85,7 +85,7 @@ p{
 .Main_information_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 1rem
+    margin: 1rem;
 }
 #How_to_play h2{
     font-size: 2rem;
