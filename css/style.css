@@ -34,7 +34,10 @@ header{
 .navBar a:hover{
     transform: scale(1.03);
 }
-
+.logo{
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
 .logo:hover{
     transform: scale(1.03);
 }
@@ -76,7 +79,7 @@ p{
 .Main_information_grid img{
     width: 35rem;
     height: 23rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     padding: 1rem;
 }
 .Main_information_grid{
