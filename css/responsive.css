@@ -34,6 +34,28 @@
         height: 12rem;
     }
 }
+@media(max-width:800px){
+    .navBar{
+        font-size: 1rem;
+    }
+    .Main_information_grid{
+        grid-template-columns: 1fr;
+    }
+    .Main_information_grid img{
+        margin: 0 auto;
+        width: 35rem;
+        height: 25rem;
+    } 
+    .how_to_play_grid{
+        grid-template-columns: 1fr;
+    }
+    .how_to_play_grid img{
+        margin: 0 auto;
+        width: 35rem;
+        height: 25rem;
+        padding: 1rem;
+    }
+}
 @media(max-width:768px){
     header img{
         width: 5rem;
