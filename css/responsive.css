@@ -16,6 +16,24 @@
         height: 20rem;
     }
 }
+@media(max-width:956px){
+    #ms_easy{
+        width: 13rem;
+        height: 13rem;
+    }
+    #ms_med{
+        width: 18rem;
+        height: 18rem;
+    }
+    #ms_hard{
+        width: 23rem;
+        height: 23rem;
+    }
+    .strat_img_flex img{
+        width: 12rem;
+        height: 12rem;
+    }
+}
 @media(max-width:768px){
     header img{
         width: 5rem;
